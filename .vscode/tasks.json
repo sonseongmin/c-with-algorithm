@@ -32,6 +32,22 @@
         "isDefault": true
       },
       "problemMatcher": ["$gcc"]
+    },
+      {
+      "label": "build 25 09 22",
+      "type": "shell",
+      "command": "C:/msys64/ucrt64/bin/g++.exe",
+      "args": [
+        "-g",
+        "25_09_22.cpp",
+        "-o",
+        "25_09_22.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
     }
   ]
 }

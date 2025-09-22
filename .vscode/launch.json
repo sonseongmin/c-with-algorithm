@@ -28,6 +28,20 @@
       "MIMode": "gdb",
       "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
       "preLaunchTask": "build bubble sort"
+    },
+      {
+      "name": "Run 25_09_22",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/25_09_22.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "preLaunchTask": "build 25 09 22"
     }
   ]
 }
