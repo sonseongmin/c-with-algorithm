@@ -7,8 +7,6 @@ using namespace std;
 void ShellSort(int a[], int N)
 {
     int i, j, h, v;
-
-    // 초기 간격 h 설정 (Knuth 수열)
     for (h = 1; h < N / 3; h = 3 * h + 1);
 
     while (h > 0)
@@ -25,7 +23,6 @@ void ShellSort(int a[], int N)
             }
             a[j] = v;
 
-            // 중간 단계 출력
             cout << "[h=" << h << "] ";
             for (int k = 0; k < N; k++)
             {
@@ -34,7 +31,7 @@ void ShellSort(int a[], int N)
             cout << endl;
         }
 
-        h /= 3; // 간격 축소
+        h /= 3;
     }
 }
 
