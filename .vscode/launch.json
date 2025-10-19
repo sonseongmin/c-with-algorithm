@@ -42,6 +42,34 @@
       "MIMode": "gdb",
       "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
       "preLaunchTask": "build 25 09 22"
+    },
+    {
+      "name": "Run insertion sort",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/insertion_sort.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "preLaunchTask": "build insertion sort"
+    },
+    {
+      "name": "Run 1013",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/1013.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "preLaunchTask": "build 1013"
     }
   ]
 }

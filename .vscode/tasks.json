@@ -48,6 +48,38 @@
         "isDefault": true
       },
       "problemMatcher": ["$gcc"]
+    },
+          {
+      "label": "build insertion sort",
+      "type": "shell",
+      "command": "C:/msys64/ucrt64/bin/g++.exe",
+      "args": [
+        "-g",
+        "insertion_sort.cpp",
+        "-o",
+        "insertion_sort.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    },
+        {
+      "label": "build 1013",
+      "type": "shell",
+      "command": "C:/msys64/ucrt64/bin/g++.exe",
+      "args": [
+        "-g",
+        "1013.cpp",
+        "-o",
+        "1013.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
     }
   ]
 }
