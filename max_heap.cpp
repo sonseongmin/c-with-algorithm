@@ -48,5 +48,5 @@ void HeapSort(int a[], int n)
 
 int main()
 {
-    //나중에 또 채우고
+    //나중에 또 채우고 , cde 교육자료에 올려놓는다고 하심 ㅇㅇ
 }
